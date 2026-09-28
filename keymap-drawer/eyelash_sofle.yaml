@@ -55,15 +55,15 @@ layers:
   - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-tab$$', h: l_nav}
-  - {t: INT4, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: INT4, h: l_nav}
   - '&td_lang2_lay'
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-return$$', h: num}
+  - {t: '$$mdi:keyboard-space$$', h: num}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: symbol}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
   - '&td_lang1_lay'
-  - {t: INT5, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: INT5, h: r_media}
   - {t: '$$mdi:keyboard-tab$$', h: r_media}
   num:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -92,7 +92,7 @@ layers:
   - {t: Sft+9, s: Sft+(}
   - '!'
   - {t: ;, s: ':'}
-  - {t: ., s: '>'}
+  - {t: Sft+-, s: Sft+_}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -110,19 +110,19 @@ layers:
   - {t: Sft+', s: Sft+"}
   - {t: '-', s: _}
   - {t: Sft+;, s: 'Sft+:'}
-  - {t: Sft+-, s: Sft+_}
+  - {t: ., s: '>'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: 'Sft+]', s: 'Sft+}'}
   - {t: Sft+\, s: Sft+|}
-  - <
-  - '>'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '?'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Ctl+0, s: Ctl+)}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-space$$
+  - $$mdi:backspace-reverse-outline$$
   - {type: held}
   - '&mkp MB2'
   - {t: '&mkp MB1', h: symbol}
@@ -191,7 +191,7 @@ layers:
   - {type: held alternate}
   - MUTE
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -380,7 +380,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {type: held alternate}
@@ -453,8 +453,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {type: held alternate}
   nav_ten:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -553,3 +553,5 @@ combos:
   k: $$mdi:alpha-w-box$$
 - p: [56, 57]
   k: l_nav
+- p: [57, 59]
+  k: {t: 'Sft+$$mdi:keyboard-return$$', type: enter}

@@ -550,8 +550,6 @@ combos:
 - p: [57, 44]
   k: $$mdi:keyboard-space$$
 - p: [56, 60]
-  k: $$mdi:alpha-w-box$$
+  k: {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
 - p: [56, 57]
   k: l_nav
-- p: [57, 59]
-  k: {t: 'Sft+$$mdi:keyboard-return$$', type: enter}

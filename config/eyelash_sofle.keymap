@@ -300,7 +300,7 @@
 &kp PRCNT      &kp N6     &kp N7        &kp N8     &kp N9        &kp N0     &mmv MOVE_DOWN   &kp RIGHT_BRACKET      &kp BACKSLASH      &kp LS(N8)  &kp LS(N9)  &kp EXCL   &kp SEMI
 &kp LS(MINUS)  &kp N1     &kp N2        &kp N3     &kp N4        &kp N5     &mmv MOVE_LEFT   &kp N6                 &kp N7             &kp N8      &kp N9      &kp N0     &kp APOS
 &trans         &kp SLASH  &kp LS(APOS)  &kp MINUS  &kp LS(SEMI)  &kp DOT    &mmv MOVE_RIGHT  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &trans      &trans      &kp QMARK  &trans
-&kp LC(N0)     &trans     &trans        &trans     &kp DELETE    &trans     &mkp MB2         &mkp_lay 2 MB1         &mkp MB3           &trans      &trans      &trans
+&kp LC(N0)     &trans     &trans        &kp SPACE  &kp DELETE    &trans     &mkp MB2         &mkp_lay 2 MB1         &mkp MB3           &trans      &trans      &trans
             >;
 
             display-name = "num";

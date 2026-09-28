@@ -58,7 +58,7 @@ layers:
   - {t: INT4, h: l_nav}
   - '&td_lang2_lay'
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-space$$', h: num}
+  - {t: '$$mdi:keyboard-return$$', h: num}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: symbol}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
@@ -188,7 +188,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: 'Sft+$$mdi:keyboard-return$$', type: held alternate}
   - MUTE
   - {type: held}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -382,8 +382,8 @@ layers:
   - {type: held}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Gui+$$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -548,8 +548,8 @@ combos:
 - p: [0, 55]
   k: {t: nav_ten, h: toggle}
 - p: [57, 44]
-  k: $$mdi:keyboard-space$$
+  k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
 - p: [56, 60]
   k: {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
 - p: [56, 57]
-  k: l_nav
+  k: Sft+Gui+S

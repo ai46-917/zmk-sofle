@@ -232,19 +232,14 @@
             key-positions = <57 44>;
         };
 
-        caps_word {
-            bindings = <&caps_word>;
+        shift_ret {
+            bindings = <&kp LS(RET)>;
             key-positions = <56 60>;
         };
 
         NAVI {
             bindings = <&mo 5>;
             key-positions = <56 57>;
-        };
-
-        shirt_ret {
-            bindings = <&kp LS(RET)>;
-            key-positions = <57 59>;
         };
     };
 

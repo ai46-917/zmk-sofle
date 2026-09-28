@@ -227,8 +227,8 @@
             key-positions = <0 55>;
         };
 
-        spa {
-            bindings = <&kp SPACE>;
+        win_v {
+            bindings = <&kp LG(V)>;
             key-positions = <57 44>;
         };
 
@@ -237,8 +237,8 @@
             key-positions = <56 60>;
         };
 
-        NAVI {
-            bindings = <&mo 5>;
+        screenshot {
+            bindings = <&kp LS(LG(S))>;
             key-positions = <56 57>;
         };
     };
@@ -284,11 +284,11 @@
         BASE {
             display-name = "base";
             bindings = <
-&kp GRAVE                  &kp N1     &kp N2      &kp N3         &kp N4                    &kp N5         &kp UP_ARROW     &kp N6       &kp N7               &kp N8         &kp N9      &kp N0                 &kp BACKSPACE
-&mt LEFT_ALT ESC           &kp Q      &kp W       &kp E          &kp R                     &kp T          &kp DOWN_ARROW   &kp Y        &kp U                &kp I          &kp O       &kp P                  &jis_eq_plus_hold RIGHT_ALT 0
-&mt LEFT_WIN TAB           &kp A      &kp S       &kp D          &kp F                     &kp G          &kp LEFT_ARROW   &kp H        &kp J                &kp K          &kp L       &jis_minus_underscore  &mt RIGHT_WIN RET
-&mt LEFT_SHIFT LEFT_ARROW  &kp Z      &kp X       &kp C          &kp V                     &kp B          &kp RIGHT_ARROW  &kp N        &kp M                &kp COMMA      &kp DOT     &kp FSLH               &mt RIGHT_SHIFT RIGHT_ARROW
-&kp C_MUTE                 &lt 5 TAB  &lt 5 INT4  &td_lang2_lay  &mt LEFT_SHIFT BACKSPACE  &lt 1 SPACE    &kp RET          &lt 2 SPACE  &mt RIGHT_SHIFT DEL  &td_lang1_lay  &lt 6 INT5  &lt 6 TAB
+&kp GRAVE                  &kp N1     &kp N2      &kp N3         &kp N4                    &kp N5       &kp UP_ARROW     &kp N6       &kp N7               &kp N8         &kp N9      &kp N0                 &kp BACKSPACE
+&mt LEFT_ALT ESC           &kp Q      &kp W       &kp E          &kp R                     &kp T        &kp DOWN_ARROW   &kp Y        &kp U                &kp I          &kp O       &kp P                  &jis_eq_plus_hold RIGHT_ALT 0
+&mt LEFT_WIN TAB           &kp A      &kp S       &kp D          &kp F                     &kp G        &kp LEFT_ARROW   &kp H        &kp J                &kp K          &kp L       &jis_minus_underscore  &mt RIGHT_WIN RET
+&mt LEFT_SHIFT LEFT_ARROW  &kp Z      &kp X       &kp C          &kp V                     &kp B        &kp RIGHT_ARROW  &kp N        &kp M                &kp COMMA      &kp DOT     &kp FSLH               &mt RIGHT_SHIFT RIGHT_ARROW
+&kp C_MUTE                 &lt 5 TAB  &lt 5 INT4  &td_lang2_lay  &mt LEFT_SHIFT BACKSPACE  &lt 1 RET    &kp RET          &lt 2 SPACE  &mt RIGHT_SHIFT DEL  &td_lang1_lay  &lt 6 INT5  &lt 6 TAB
             >;
 
             sensor-bindings = <&rsr_vol>, <&rsr_trans>;
@@ -313,7 +313,7 @@
 &kp SEMI            &kp EQUAL     &kp LS(N6)        &kp LS(APOS)  &kp LS(N7)          &kp LS(N2)       &kp C_VOL_DN            &kp LC(HOME)  &kp LC(LEFT)   &kp UP    &kp LC(RIGHT)  &kp LC(END)  &trans
 &kp APOS            &kp EXCL      &kp LEFT_BRACKET  &kp HASH      &kp DOLLAR          &kp PERCENT      &kp LG(LS(LEFT_ARROW))  &kp HOME      &kp LEFT       &kp DOWN  &kp RIGHT      &kp END      &trans
 &trans              &kp QUESTION  &kp INT3          &kp LS(INT3)  &kp LS(LEFT_BRACE)  &kp LS(EQUAL)    &kp LS(LG(RIGHT))       &trans        &trans         &trans    &kp PAGE_DOWN  &kp PAGE_UP  &trans
-&kp LC(LEFT_SHIFT)  &trans        &trans            &trans        &trans              &trans           &kp K_MUTE              &trans        &kp BACKSPACE  &trans    &trans         &trans
+&kp LC(LEFT_SHIFT)  &trans        &trans            &trans        &trans              &kp LS(RET)      &kp K_MUTE              &trans        &kp BACKSPACE  &trans    &trans         &trans
             >;
 
             display-name = "symbol";
